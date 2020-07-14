@@ -4,18 +4,6 @@
 # aliases / helpers / variables
 # -----------------------------
 
-# Define task add project alias
-
-tap(){
-	ttl_args=""
-	for arg in "$@"
-	do
-		ttl_args+=${arg}
-		ttl_args+=" "
-	done
-	task add project:${ttl_args}
-}
-
 # The following alias is meant for rc options we'll always set unconditionally
 # so the UI will work
 tw='task rc.defaultwidth=0 rc.defaultheight=0 rc.verbose=nothing rc._forcecolor=on'

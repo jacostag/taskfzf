@@ -1,3 +1,11 @@
+A few custom modifications to the following taskfzf provided by junegunn.
+Modifications include:
+
+1. Fixing the undo command
+2. Default to add project (rather than just add)
+
+The original README is below.
+
 == Taskwarrior fzf interface
 
 An https://github.com/junegunn/fzf[fzf] based UI for
